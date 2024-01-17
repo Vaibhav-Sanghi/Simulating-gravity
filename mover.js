@@ -1,7 +1,7 @@
 class Mover {
   constructor(x, y, mass, size) {
     this.pos = new Vector(x, y);
-    this.vel = new Vector(5, 0);
+    this.vel = new Vector(0, -10);
     this.acc = new Vector(0, 0);
     this.mass = mass;
     this.r = size;

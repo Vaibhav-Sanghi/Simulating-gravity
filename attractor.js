@@ -3,7 +3,7 @@ class Attractor {
     this.pos = new Vector(x, y);
     this.mass = mass;
     this.r = size;
-    this.g = 3;
+    this.g = 6.67 * Math.pow(10, -29);
   }
 
   attract(m) {
